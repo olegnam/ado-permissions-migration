@@ -1,0 +1,5 @@
+# Exported permission data contains user and group identities and must never be committed.
+*.csv
+
+# The mapping template is fake sample data and stays tracked.
+!group-mapping.template.csv

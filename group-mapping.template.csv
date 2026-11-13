@@ -1,0 +1,4 @@
+OktaGroup,EntraGroup,AdoScope,AdoGroupOrResource,RoleOrPermission,Owner,Notes
+okta-FAKE-example-readers,entra-FAKE-sg-example-readers,ExampleProject,Readers,Member,platform-example@example.com,FAKE ROW. Replace before use. Okta pushes this group into the Entra group; add the Entra group to the Azure DevOps Readers group on ExampleProject.
+okta-FAKE-example-endpoint-users,entra-FAKE-sg-example-endpoint-users,ExampleProject,example-service-connection,User,platform-example@example.com,FAKE ROW. Replace before use. Grant the service connection User role to an Azure DevOps group that contains the Entra group.
+okta-FAKE-example-pool-admins,entra-FAKE-sg-example-pool-admins,ExampleOrganization,example-agent-pool,Administrator,platform-example@example.com,FAKE ROW. Replace before use. Organization-level agent pool. Grant Administrator to an Azure DevOps group that contains the Entra group.
